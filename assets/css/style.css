@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF; 
+  border-bottom: solid 1px #EEEEEE; /* ヘッダーの下の薄い線 */
+  padding: 0 24px; /* 余白の設定（Week03で扱います） */
+  z-index: 10000; /* ヘッダーが一番上に表示されるよう順序を設定。 */
+}
+.header-logo{
+    width: 148px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    gap: 48px; 
+  }
+  
+  .header-navList {
+    display: flex;
+    gap: 32px; 
+  }
+  
+  .header-navLink {
+    color: #0071BC;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .header-snsList {
+    display: flex; 
+    gap: 24px; 
+  }
+  .footer {
+    padding-top: 40px; /* 余白の設定（Week03で扱います） */
+    text-align: center; 
+  }
+  .footer-inner {
+    display: flex; 
+    flex-direction: column; /* 縦方向に配置 */
+    align-items: center; 
+    gap: 24px;
+  }
+  .footer-logo {
+    width: 200px;
+  }
+  .footer-corporateLink {
+    color: #666666;
+    font-size: 14px;
+    display: flex; 
+    align-items: center; 
+    gap: 4px; 
+  }
+  
+  .footer-snsList {
+    display: flex; 
+    gap: 24px;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    margin-top: 24px; /* 余白の設定（Week03で扱います） */
+    border-top: solid 1px #F7F9FB;
+    color: #ADADAD;
+    font-size: 10px;
+    padding: 24px; /* 余白の設定（Week03で扱います） */
+  }
